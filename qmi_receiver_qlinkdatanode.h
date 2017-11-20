@@ -1,0 +1,3 @@
+#ifndef QMI_RECEIVER_qlinkdatanode_H_INCLUDED
+#define QMI_RECEIVER_qlinkdatanode_H_INCLUDED
+#endif //QMI_RECEIVER_qlinkdatanode_H_INCLUDED

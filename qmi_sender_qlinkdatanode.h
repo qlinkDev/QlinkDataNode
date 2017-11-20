@@ -1,0 +1,18 @@
+#ifndef QMI_SENDER_qlinkdatanode_H_INCLUDED
+#define QMI_SENDER_qlinkdatanode_H_INCLUDED
+
+extern int startQMISender(void);
+
+typedef enum
+{
+  QMISENDER_MIN = 0,
+  QMISENDER_RESPONSE_TPDU = QMISENDER_MIN,
+  QMISENDER_WRITE_SIMDATA = 1, 
+  QMISENDER_SET_ONLINE = 2,
+  QMISENDER_ACQ_IMSI = 3,  
+  QMISENDER_SET_OFFLINE = 4,
+  QMISENDER_DEL_SIMDATA = 5,  
+  QMISENDER_MAX = QMISENDER_DEL_SIMDATA
+}qmisender_request_type;
+
+#endif // QMI_SENDER_qlinkdatanode_H_INCLUDED

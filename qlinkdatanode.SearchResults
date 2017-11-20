@@ -1,0 +1,75 @@
+---- b_enable_softwarecard_ok Matches (16 in 4 files) ----
+At_qlinkdatanode.c:bool b_enable_softwarecard_ok = false;
+Protocol_qlinkdatanode.c:extern bool b_enable_softwarecard_ok;
+Protocol_qlinkdatanode.c:  LOG(" Debug: b_enable_softwarecard_ok = %d \n",b_enable_softwarecard_ok);
+Protocol_qlinkdatanode.c:  if (b_enable_softwarecard_ok == true){
+Protocol_qlinkdatanode.c:   if (b_enable_softwarecard_ok == true){
+Protocol_qlinkdatanode.c:		LOG(" Debug: b_enable_softwarecard_ok = %d \n",b_enable_softwarecard_ok);
+Protocol_qlinkdatanode.c:		b_enable_softwarecard_ok = true;
+Protocol_qlinkdatanode.c:		b_enable_softwarecard_ok = false;
+Qmi_parser_qlinkdatanode.c:extern bool b_enable_softwarecard_ok;
+Qmi_parser_qlinkdatanode.c:	LOG(" Debug: b_enable_softwarecard_ok = %d \n",b_enable_softwarecard_ok);
+Qmi_parser_qlinkdatanode.c:	if (b_enable_softwarecard_ok){
+Socket_qlinkdatanode.c:extern bool b_enable_softwarecard_ok;
+Socket_qlinkdatanode.c:  if ((reg_urc_state == REG_URC_STATE_CARD_READY) && ( b_enable_softwarecard_ok == true)){
+---- YY_PROCESS_MSG_SEND_YYDAEMON_APPLE Matches (2 in 2 files) ----
+Msq_qlinkdatanode.c:		send_msgto_update.id = YY_PROCESS_MSG_SEND_YYDAEMON_APPLE;
+Msq_qlinkdatanode.h:  YY_PROCESS_MSG_SEND_YYDAEMON_APPLE= 5029, // Add by  li at 20170206
+---- msq_send_APN_message_to_yydaemon Matches (3 in 2 files) ----
+Msq_qlinkdatanode.c:int msq_send_APN_message_to_yydaemon(void)
+Msq_qlinkdatanode.c:		LOG("msq_send_APN_message_to_yydaemon() failed. ret=%d.\n", ret);
+Protocol_qlinkdatanode.c:	 msq_send_APN_message_to_yydaemon();
+---- msq_send_Lcdversion_to_yydaemon Matches (2 in 2 files) ----
+Msq_qlinkdatanode.c: int msq_send_Lcdversion_to_yydaemon(char versionf)
+Protocol_qlinkdatanode.c:	msq_send_Lcdversion_to_yydaemon(unFluOrBookModeAndLanguage);
+---- FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG Matches (15 in 6 files) ----
+At_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Common_qlinkdatanode.h:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Feature_macro_qlinkdatanode.h:#define FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Msq_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.h:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG 
+---- FEATURE_ENABLE_SFOTCARD_DEBUG Matches (29 in 8 files) ----
+At_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+At_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+At_qlinkdatanode.h:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+Common_qlinkdatanode.h:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Feature_macro_qlinkdatanode.h:#define FEATURE_ENABLE_SFOTCARD_DEBUG
+Feature_macro_qlinkdatanode.h:#define FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Msq_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+Protocol_qlinkdatanode.c:#ifdef  FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG
+Protocol_qlinkdatanode.h:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG_1229DEBUG 
+Qmi_parser_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+Qmi_parser_qlinkdatanode.c: #ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+Qmi_parser_qlinkdatanode.c:#ifdef FEATURE_ENABLE_SFOTCARD_DEBUG
+---- zhijie Matches (4 in 3 files) ----
+Msq_qlinkdatanode.c://add by zhijie 20170330,Begin
+Msq_qlinkdatanode.c: //add by zhijie 20170330,End
+Msq_qlinkdatanode.h:  YY_PROCESS_MSG_SEND_YYDAEMON_SOFT_SIM_MODE = 5032, // Add by zhijie at 20170330
+Protocol_qlinkdatanode.c:		msq_send_SoftSim_mode_message_to_yydaemon();  //zhijie 20170330
